@@ -6,7 +6,12 @@ It contains functions for arithmetic and LUT evaluation over messages decomposed
 
 ## Build and Running
 
-`make` to build the shared library, `make test` to run the unit tests. You can change compiling options (e.g. change the FFT library) for MOSFHET in the [Makefile](Makefile#L28).
+1. Clone this repository with the `--recursive` flag.
+> git clone https://github.com/antoniocgj/MOSFHET_MCA.git --recursive
+
+2. `make` to build the shared library, `make test` to run the unit tests. 
+ 
+You can change compiling options (e.g. change the FFT library) for MOSFHET in the [Makefile](Makefile#L28).
 
 ## Outdated techniques
 
